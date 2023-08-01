@@ -528,11 +528,18 @@ footer .call span {
   section.shower h1 {
     margin-left: 250px;
   }
+  .content-header {
+    max-width: 1700px;
+    margin-right: 50px;
+  }
   .content .content-cards {
     justify-content: space-evenly;
   }
   footer .socials {
     margin-left: 50px;
+  }
+  .avatar {
+    display: none;
   }
 }
 @media only screen and (max-width: 1110px) {
@@ -605,6 +612,9 @@ footer .call span {
   footer ul li:not(:first-child) {
     margin-left: 20px;
   }
+  .map-section {
+    max-width: 200px;
+  }
 }
 @media only screen and (max-width: 810px) {
   .container {
@@ -658,5 +668,12 @@ footer .call span {
   section.shower h1 {
     margin-left: 0;
     font-size: 46px;
+  }
+  .map {
+    display: none;
+  }
+  .articles-section {
+    display: none;
+    max-width: 200px;
   }
 }
